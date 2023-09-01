@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Evaluation AND1 Exo1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shopping_cart">ShoppingCartActivity</string>
+    <string name="title_activity_shopping_logs">ShoppingLogs</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_title">A propos de</string>
+    <string name="about_description">Cette application vous permet de gérer, consulter l\'historique de vos achats ainsi que l\'ensemble de nos boutiques disponibles.</string>
+    <string name="contact_button">Nous contacter</string>
+    <string name="cart_button">Gérer vos achats</string>
+    <string name="historical_button">Voir l\'historique</string>
+    <string name="shops_button">Nos boutiques</string>
+    <string name="about_button">A propos de</string>
+    <string name="shop1_title">le magasin 1</string>
+    <string name="shop1_address">5 rue de la chouette\n  4000 Liege \n    +32 2 226 83 61</string>
+    <string name="shop2_title">le magasin 2</string>
+    <string name="shop2_address">53 rue des songes\n  4000 Liege\n    +32 2 481 51 62</string>
+    <string name="cart_title">Mes achats</string>
+    <string name="cart_confirm_button">Valider</string>
+    <string name="historical_title">Mes historiques d\'achat</string>
+</resources>
