@@ -15,10 +15,6 @@ class MainActivity : Activity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         (findViewById<View>(R.id.buttonNext) as Button).setOnClickListener(this)
-    }
-
-    override fun onStart() {
-        super.onStart()
         fillData()
         updateUI()
     }
@@ -27,6 +23,11 @@ class MainActivity : Activity(), View.OnClickListener {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
+    }
+
+    override fun onStop() {
+        super.onStop()
+        hideContentImageView()
     }
 
     private fun fillData() {
