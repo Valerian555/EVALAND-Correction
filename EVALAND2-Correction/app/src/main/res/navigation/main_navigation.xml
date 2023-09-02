@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="be.valerianpt.evaland2_correction.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_twitterFragment"
+            app:destination="@id/twitterFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_facebookFragment"
+            app:destination="@id/facebookFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_newAccountFragment"
+            app:destination="@id/newAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twitterFragment"
+        android:name="be.valerianpt.evaland2_correction.TwitterFragment"
+        android:label="fragment_twitter"
+        tools:layout="@layout/fragment_twitter" >
+        <action
+            android:id="@+id/action_twitterFragment_to_connectedFragment"
+            app:destination="@id/connectedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/facebookFragment"
+        android:name="be.valerianpt.evaland2_correction.FacebookFragment"
+        android:label="fragment_facebook"
+        tools:layout="@layout/fragment_facebook" >
+        <action
+            android:id="@+id/action_facebookFragment_to_connectedFragment"
+            app:destination="@id/connectedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newAccountFragment"
+        android:name="be.valerianpt.evaland2_correction.NewAccountFragment"
+        android:label="fragment_new_account"
+        tools:layout="@layout/fragment_new_account" >
+        <action
+            android:id="@+id/action_newAccountFragment_to_signupConnectedFragment"
+            app:destination="@id/signupConnectedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectedFragment"
+        android:name="be.valerianpt.evaland2_correction.ConnectedFragment"
+        android:label="fragment_connected"
+        tools:layout="@layout/fragment_connected" >
+        <argument
+            android:name="imageType"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupConnectedFragment"
+        android:name="be.valerianpt.evaland2_correction.SignupConnectedFragment"
+        android:label="fragment_signup_connected"
+        tools:layout="@layout/fragment_signup_connected" >
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+    </fragment>
+</navigation>

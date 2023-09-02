@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EvalAnd2-Correction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_account_button">Création d\'un compte Bloggies</string>
+    <string name="facebook_home_button">Connexion via Facebook</string>
+    <string name="home_twitter_button">Connexion via Twitter</string>
+    <string name="connexion_button">Connexion</string>
+    <string name="password_hint_input">Password</string>
+    <string name="email_hint_input">Email</string>
+    <string name="signup_button">Inscription</string>
+    <string name="login_hint_input">Login</string>
+    <string name="password_confirmation_input">Password confirmation</string>
+    <string name="congrats_connected">Félicitation vous êtes connecté</string>
+</resources>
