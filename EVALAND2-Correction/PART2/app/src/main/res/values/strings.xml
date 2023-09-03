@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EvalAnd2-part2-Correction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_title">Nom:</string>
+    <string name="count_title">Quantité:</string>
+    <string name="food_radiobutton">Nourriture</string>
+    <string name="drink_radiobutton">Boisson</string>
+    <string name="health_radiobutton">Hygiène</string>
+    <string name="home_radiobutton">Maison</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="add_button">Enregister</string>
+    <string name="no_item_text">Pas d\'article</string>
+    <string name="count_title_text">Quantité:</string>
+</resources>
